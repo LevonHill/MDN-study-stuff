@@ -1,0 +1,55 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title-page">
+        Welcome to the Zekelman Industries <br />
+        <span class="Listen">Service Portal</span><br />Sign In Here
+      </h1>
+      <form class="flex-container" action="submit">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+          alt="User Icon"
+        />
+        <div class="widget">
+          <label for="name">Company UserName:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Ex. lehill"
+          />
+        </div>
+        <div class="widget">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            maxlength="16"
+            minlength="16"
+            required
+            placeholder="Enter Work Password"
+          />
+        </div>
+        <div class="widget">
+          <a href="" class="password">Forgot Password?</a>
+          <a href="" class="sso">Zekelman Single Sign-On</a>
+        </div>
+        <button class="login-button" type="submit">Submit</button>
+      </form>
+      <footer class="footer-section">
+        &copy; 2025 Zekelman Industries. All rights reserved.
+      </footer>
+    </main>
+  </body>
+</html>
